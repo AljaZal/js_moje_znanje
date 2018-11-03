@@ -2,19 +2,21 @@
 <html>
     <head>
         <title>Java script v glavi HTML</title>
-        <script>
-            function mojaFunkcija() {
-               document.getElementById("odstavek") .innerHTML = "Odstavek je bil spremenjen.";
-
-            }
-            
-        </script>
+        <script src="program.js"></script>
     </head>
     <body>
+        <!-- Primer uporabe innerHTML-->
         <h1>Javascript v glavi HTML</h1>
         <p id="odstavek">Odstavek besedila...</p>
     <button type="button" onclick="mojaFunkcija()">Spremeni</button>
     
+    <br>
+    <hr>
+    <br>
+
+    <!-- Primer uporabe window.alert - pojavno okno!-->
+    <button type="button" onclick="window.alert ('Uspesno si kliknil na gumb!')">Pojavno okno</button>
+
     </body>
 
 </html>
